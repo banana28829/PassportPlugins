@@ -1,0 +1,8 @@
+# MinePassportPro configuration
+
+server-name: "MinePassport RP Server"
+
+keep-on-death: true
+
+messages:
+  prefix: "&6[MinePassportPro] &7"

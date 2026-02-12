@@ -1,0 +1,54 @@
+name: MinePassportPro
+main: com.minepassport.pro.MinePassportPro
+version: ${version}
+author: LANMAIN
+api-version: '1.20'
+
+commands:
+  passport:
+    description: Управління RP-паспортами
+    usage: /passport
+    aliases: [ppass, passportpro]
+    permission: minepassport.use
+
+permissions:
+  minepassport.use:
+    description: Базовий доступ до плагіна
+    default: true
+  minepassport.give:
+    description: Видати паспорт
+    default: op
+  minepassport.revoke:
+    description: Анулювати паспорт
+    default: op
+  minepassport.duplicate:
+    description: Видати дублікат паспорта
+    default: op
+  minepassport.setstatus:
+    description: Змінити статус гравця
+    default: op
+  minepassport.setbirth:
+    description: Встановити дату народження
+    default: op
+  minepassport.setcity:
+    description: Встановити місто проживання
+    default: op
+  minepassport.setorg:
+    description: Встановити організацію
+    default: op
+  minepassport.settrust:
+    description: Встановити рівень довіри
+    default: op
+  minepassport.setmarried:
+    description: Встановити одруження
+    default: op
+  minepassport.verify:
+    description: Перевірити паспорт
+    default: op
+  minepassport.info:
+    description: Отримати інформацію про паспорт
+    default: op
+  minepassport.reload:
+    description: Перезавантажити конфіг
+    default: op
+
